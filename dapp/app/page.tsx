@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { MoonIcon, SunIcon, Sword } from "lucide-react"
+import GalleryImage from "@/components/gallery-image"
 
 export default function Home() {
   return (
@@ -75,6 +76,18 @@ export default function Home() {
                 learns, and grows, guided by the wisdom of his father and the boundless courage of his own heart.
               </p>
               <p>For even the mightiest warriors were once just cubs dreaming of battle.</p>
+            </div>
+          </section>
+
+          <section id="gallery" className="mb-20">
+            <h3 className="text-3xl font-bold mb-4">Baby Jin's Journey</h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <GalleryImage src="/1.jpeg" alt="Baby Jin training with his father" />
+              <GalleryImage src="/2.jpeg" alt="Baby Jin meditating under a waterfall" />
+              <GalleryImage src="/3.jpeg" alt="Baby Jin's first battle" />
+              <GalleryImage src="/4.jpeg" alt="Baby Jin exploring the Eternal Peaks" />
+              <GalleryImage src="/5.jpeg" alt="Baby Jin mastering the ancient scrolls" />
+              <GalleryImage src="/6.jpeg" alt="Baby Jin's destiny revealed" />
             </div>
           </section>
 
