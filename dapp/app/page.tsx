@@ -88,15 +88,19 @@ export default function Home() {
               <div className="bg-blue-900 bg-opacity-75 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold mb-2">Distribution</h4>
                 <ul className="list-disc list-inside">
-                  <li>50% Public Sale</li>
-                  <li>20% Liquidity Pool</li>
-                  <li>15% Team & Development</li>
+                  <li>69.5% Liquidity Pool</li>
+                  <li>15% Team</li>
                   <li>10% Community Rewards</li>
-                  <li>5% Marketing</li>
+                  <li>5.5% Dev Holdings (to be burned)</li>
                 </ul>
               </div>
             </div>
+            <div className="mt-8 bg-blue-900 bg-opacity-75 p-6 rounded-lg">
+              <h4 className="text-xl font-semibold mb-2">Dev Holdings Burn</h4>
+              <p>The 5.5% allocated to Dev Holdings will be burned, reducing the total supply and potentially increasing the value for holders.</p>
+            </div>
           </section>
+
 
           <section id="roadmap" className="mb-20">
             <h3 className="text-3xl font-bold mb-4">Roadmap</h3>
