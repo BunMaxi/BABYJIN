@@ -57,7 +57,7 @@ export default function Home() {
                 heir to the legendary warrior, Jin the White Tiger.
               </p>
               <p>
-                From the moment he opened his icy blue eyes, it was clear that Jin's legacy would live on through him.
+                From the moment he opened his icy blue eyes, it was clear that Jin&apos;s legacy would live on through him.
                 Though small, Baby Jin possessed a spirit as fierce as a raging storm and a heart as pure as a mountain
                 spring. Unlike his father, who had mastered the way of the blade through years of discipline and
                 hardship, Baby Jin was playful, curious, and often found himself in trouble—whether it was sneaking out
@@ -65,7 +65,7 @@ export default function Home() {
               </p>
               <p>
                 But deep inside, Baby Jin knew that one day, the weight of his lineage would rest on his tiny shoulders.
-                Under his father's watchful eye, he trained tirelessly, his small hands gripping a katana too big for
+                Under his father&apos;s watchful eye, he trained tirelessly, his small hands gripping a katana too big for
                 him, his determination unshaken. The world saw him as just a cub, but within him burned the soul of a
                 warrior.
               </p>
@@ -118,7 +118,7 @@ export default function Home() {
                 </ul>
               </div>
               <div className="bg-blue-900 bg-opacity-75 p-6 rounded-lg">
-                <h4 className="text-xl font-semibold mb-2">Phase 3: The Warrior's Path</h4>
+                <h4 className="text-xl font-semibold mb-2">Phase 3: The Warrior&apos;s Path</h4>
                 <ul className="list-disc list-inside">
                   <li>Introduce AI-powered Baby Jin virtual assistant</li>
                   <li>Develop blockchain-based battle game featuring Baby Jin</li>
