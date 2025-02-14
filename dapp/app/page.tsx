@@ -39,7 +39,8 @@ export default function Home() {
         </header>
 
         <main className="container mx-auto p-4 text-white">
-          <section id="hero" className="text-center py-20">
+          <section id="hero" className="text-center py-20 items-center justify-center flex flex-col">
+            <Image src="/1.jpeg" width={300} height={300} alt="bbjin" className="rounded-md mb-10" />
             <h2 className="text-5xl font-bold mb-4">Baby Jin: The Warrior Cub</h2>
             <p className="text-xl mb-8">Join the legend of the Eternal Peaks with $BBJIN</p>
             <div className="flex justify-center space-x-4">
@@ -80,7 +81,7 @@ export default function Home() {
           </section>
 
           <section id="gallery" className="mb-20">
-            <h3 className="text-3xl font-bold mb-4">Baby Jin's Journey</h3>
+            <h3 className="text-3xl font-bold mb-4">Baby Jin&apos;s Journey</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               <GalleryImage src="/1.jpeg" alt="Baby Jin training with his father" />
               <GalleryImage src="/2.jpeg" alt="Baby Jin meditating under a waterfall" />
